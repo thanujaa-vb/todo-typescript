@@ -1,0 +1,22 @@
+.todoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoList {
+  min-width: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+/* Small */
+@media screen and (max-width: 650px) {
+  .todoList {
+    width: 100%;
+  }
+}
