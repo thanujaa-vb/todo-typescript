@@ -14,7 +14,7 @@ const corsOptions = {
 };
 
 //app.use(cors(corsOptions));
-app.use(upload());
+//app.use(upload());
 app.use(bodyParser.json());
 console.log(__dirname);
 app.use(express.static(path.join(__dirname, "/build")));
