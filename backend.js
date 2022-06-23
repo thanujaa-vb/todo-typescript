@@ -13,7 +13,7 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
 app.use(upload());
 app.use(bodyParser.json());
 console.log(__dirname);
