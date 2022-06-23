@@ -23,7 +23,7 @@ app.use(express.json());
 
 app.get("/health-check", (req, res) => {
   const healthcheck = {
-    uptime: process.uptime(),
+  //  uptime: process.uptime(),
     message: "Ok",
     timestamp: Date.now(),
   };
